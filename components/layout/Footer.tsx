@@ -14,9 +14,9 @@ export default function Footer() {
             <div className="space-y-4">
               <Link href="/" className="flex items-center space-x-2 group">
                 <div className="p-2 rounded-lg bg-gradient-to-r from-white/20 to-white/10 group-hover:scale-110 transition-transform duration-300">
-                  <Zap className="h-6 w-6 text-white" />
+                  <Zap className="h-6 w-6 text-black" />
                 </div>
-                <span className="text-2xl font-bold text-white">Azura</span>
+                <span className="text-2xl font-bold text-black">Azura</span>
               </Link>
               <p className="text-light/80 leading-relaxed">
                 Empowering businesses with cutting-edge IT solutions and innovative technology services.
@@ -26,7 +26,7 @@ export default function Footer() {
                   <a
                     key={index}
                     href="#"
-                    className="p-2 rounded-full backdrop-blur-sm bg-white/10 border border-white/20 text-white hover:bg-white/20 hover:scale-110 transition-all duration-300"
+                    className="p-3 rounded-full backdrop-blur-sm bg-white/15 border border-black/5 text-black hover:bg-white/20 hover:scale-110 transition-all duration-300 hover:shadow-lg "
                   >
                     <Icon className="h-5 w-5" />
                   </a>
@@ -36,13 +36,13 @@ export default function Footer() {
 
             {/* Quick Links */}
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold text-white">Quick Links</h3>
+              <h3 className="text-lg font-semibold text-black">Quick Links</h3>
               <div className="space-y-2">
                 {['Home', 'About', 'Achievement', 'Project', 'Contact'].map((link) => (
                   <Link
                     key={link}
                     href={link === 'Home' ? '/' : `/${link.toLowerCase()}`}
-                    className="block text-light/80 hover:text-white hover:translate-x-2 transition-all duration-300"
+                    className="block text-light/80 hover:text-black hover:translate-x-2 transition-all duration-300  hover:shadow-md "
                   >
                     {link}
                   </Link>
@@ -52,13 +52,13 @@ export default function Footer() {
 
             {/* Services */}
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold text-white">Services</h3>
+              <h3 className="text-lg font-semibold text-black">Services</h3>
               <div className="space-y-2">
                 {['Web Development', 'Mobile Apps', 'Cloud Solutions', 'AI & Machine Learning', 'Cybersecurity'].map((service) => (
                   <a
                     key={service}
                     href="#"
-                    className="block text-light/80 hover:text-white hover:translate-x-2 transition-all duration-300"
+                    className="block text-light/80 hover:text- hover:translate-x-2 transition-all duration-300"
                   >
                     {service}
                   </a>
@@ -68,7 +68,7 @@ export default function Footer() {
 
             {/* Contact Info */}
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold text-white">Contact Us</h3>
+              <h3 className="text-lg font-semibold text-black">Contact Us</h3>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3 text-light/80">
                   <Mail className="h-5 w-5 text-lavender" />

@@ -68,19 +68,19 @@ export default function Home() {
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-navy via-purple to-lavender bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-black to-black bg-clip-text text-transparent">
             Welcome to Azura
           </h1>
           <p className="text-xl md:text-2xl text-navy/80 mb-8 max-w-3xl mx-auto leading-relaxed">
             Empowering businesses with cutting-edge IT solutions, innovative technology services, 
             and digital transformation expertise.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <GlassButton size="lg" className="group">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center ">
+            <GlassButton size="lg" className="group font-semibold" variant="primary">
               Get Started Today
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              {/* <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform " /> */}
             </GlassButton>
-            <GlassButton variant="secondary" size="lg">
+            <GlassButton variant="secondary" size="lg" className="font-semibold">
               View Our Work
             </GlassButton>
           </div>
@@ -149,13 +149,13 @@ export default function Home() {
         <div className="absolute inset-0 backdrop-blur-lg bg-white/10" />
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
             Ready to Transform Your Business?
           </h2>
-          <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-black/80 mb-8 max-w-2xl mx-auto">
             Join hundreds of satisfied clients who trust Azura for their digital transformation journey.
           </p>
-          <GlassButton variant="secondary" size="lg" className="text-white border-white/30">
+          <GlassButton variant="primary" size="lg" className="text-black border-white/30 border hover:border-black">
             <Link href="/contact">Start Your Project</Link>
           </GlassButton>
         </div>
