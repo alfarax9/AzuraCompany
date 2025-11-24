@@ -144,7 +144,7 @@ export default function Achievement() {
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-navy via-purple to-lavender bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-navy via-purple to-lavender bg-clip-text text-navy">
             Our Achievements
           </h1>
           <p className="text-xl md:text-2xl text-navy/80 mb-12 max-w-4xl mx-auto leading-relaxed">
@@ -217,7 +217,7 @@ export default function Achievement() {
                 <div className="flex flex-col md:flex-row items-start md:items-center space-y-4 md:space-y-0 md:space-x-6">
                   <div className="flex-shrink-0">
                     <div className="p-3 bg-gradient-to-r from-purple to-lavender rounded-2xl group-hover:scale-110 transition-transform duration-300">
-                      <achievement.icon className="h-8 w-8 text-white" />
+                      <achievement.icon className="h-8 w-8 text-navy" />
                     </div>
                   </div>
                   <div className="flex-grow">
@@ -240,17 +240,17 @@ export default function Achievement() {
         <div className="absolute inset-0 backdrop-blur-lg bg-white/10" />
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-navy mb-6">
             Ready to Be Our Next Success Story?
           </h2>
-          <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-navy/80 mb-8 max-w-2xl mx-auto">
             Join our growing list of satisfied clients and experience the Azura difference.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-4 bg-white text-navy rounded-full font-medium hover:bg-light transition-colors duration-300">
+            <button className="px-8 py-4 bg-navy text-navy rounded-full font-medium hover:bg-light transition-colors duration-300">
               Start Your Project
             </button>
-            <button className="px-8 py-4 backdrop-blur-sm bg-white/20 border border-white/30 text-white rounded-full font-medium hover:bg-white/30 transition-colors duration-300">
+            <button className="px-8 py-4 backdrop-blur-sm bg-white/20 border border-white/30 text-navy rounded-full font-medium hover:bg-white/30 transition-colors duration-300">
               View Case Studies
             </button>
           </div>

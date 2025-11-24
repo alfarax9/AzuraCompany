@@ -155,7 +155,7 @@ export default function Home() {
           <p className="text-xl text-black/80 mb-8 max-w-2xl mx-auto">
             Join hundreds of satisfied clients who trust Azura for their digital transformation journey.
           </p>
-          <GlassButton variant="primary" size="lg" className="text-black border-white/30 border hover:border-black">
+          <GlassButton variant="primary" size="lg" className="text-black border-white/30 border hover:border-black border-navy/25 font-semibold">
             <Link href="/contact">Start Your Project</Link>
           </GlassButton>
         </div>

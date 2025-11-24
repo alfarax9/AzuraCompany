@@ -156,37 +156,37 @@ export default function About() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-white mb-6">Our Story</h2>
-              <p className="text-lg text-white/80 mb-6 leading-relaxed">
-                Founded in 2014 by a team of passionate technologists, Azura began as a small 
+              <h2 className="text-4xl font-bold text-navy mb-6">Our Story</h2>
+              <p className="text-lg text-navy/80 mb-6 leading-relaxed">
+                Founded in 2025 by a team of passionate technologists, Azura began as a small 
                 consulting firm with a big vision: to make enterprise-grade technology accessible 
                 to businesses of all sizes.
               </p>
-              <p className="text-lg text-white/80 mb-6 leading-relaxed">
+              <p className="text-lg text-navy/80 mb-6 leading-relaxed">
                 Today, we've grown into a full-service IT company serving clients globally, 
                 but we've never forgotten our roots. We still approach every project with the 
                 same curiosity, dedication, and personal touch that defined our early days.
               </p>
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
-                  <div className="text-3xl font-bold text-white">2014</div>
-                  <div className="text-white/60">Founded</div>
+                  <div className="text-3xl font-bold teks-navy">2014</div>
+                  <div className="teks-navy/60">Founded</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-white">500+</div>
-                  <div className="text-white/60">Projects</div>
+                  <div className="text-3xl font-bold teks-navy">500+</div>
+                  <div className="teks-navy/60">Projects</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-white">25+</div>
-                  <div className="text-white/60">Countries</div>
+                  <div className="text-3xl font-bold teks-navy">25+</div>
+                  <div className="teks-navy/60">Countries</div>
                 </div>
               </div>
             </div>
             <GlassCard className="p-8">
-              <Zap className="h-16 w-16 text-white mb-6 mx-auto" />
-              <div className="text-center text-white">
+              <Zap className="h-16 w-16 text-navy mb-6 mx-auto" />
+              <div className="text-center text-navy">
                 <h3 className="text-2xl font-semibold mb-4">Innovation Never Stops</h3>
-                <p className="text-white/80 leading-relaxed">
+                <p className="text-navy/80 leading-relaxed">
                   We invest 15% of our revenue back into R&D, ensuring we're always 
                   at the forefront of technological advancement.
                 </p>
