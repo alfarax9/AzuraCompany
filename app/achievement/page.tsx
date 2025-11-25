@@ -247,7 +247,7 @@ export default function Achievement() {
             Join our growing list of satisfied clients and experience the Azura difference.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-4 bg-navy text-navy rounded-full font-medium hover:bg-light transition-colors duration-300">
+            <button className="px-8 py-4 bg-navy text-navy rounded-full font-medium hover:bg-light transition-colors duration-300 hover:scale-105 ">
               Start Your Project
             </button>
             <button className="px-8 py-4 backdrop-blur-sm bg-white/20 border border-white/30 text-navy rounded-full font-medium hover:bg-white/30 transition-colors duration-300">

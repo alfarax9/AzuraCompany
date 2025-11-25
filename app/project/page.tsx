@@ -132,7 +132,7 @@ export default function Project() {
                 onClick={() => setActiveFilter(category.id)}
                 className={`flex items-center space-x-2 px-6 py-3 rounded-full font-medium transition-all duration-300 ${
                   activeFilter === category.id
-                    ? 'bg-gradient-to-r from-purple to-lavender text-white shadow-lg'
+                    ? 'bg-gradient-to-r from-purple to-lavender text-nav1  shadow-lg'
                     : 'backdrop-blur-sm bg-white/20 border border-white/30 text-navy hover:bg-white/30'
                 }`}
               >
@@ -251,13 +251,13 @@ export default function Project() {
         <div className="absolute inset-0 backdrop-blur-lg bg-white/10" />
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-navy mb-6">
             Ready to Start Your Project?
           </h2>
-          <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-navy/80 mb-8 max-w-2xl mx-auto">
             Let's discuss how we can bring your vision to life with our expertise and innovative solutions.
           </p>
-          <GlassButton variant="secondary" size="lg" className="text-white border-white/30">
+          <GlassButton variant="secondary" size="lg" className="text-navy border-white/30 ">
             Get Started Today
           </GlassButton>
         </div>
