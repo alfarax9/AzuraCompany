@@ -14,9 +14,9 @@ export default function Home() {
   ];
 
   const stats = [
-    { number: '500+', label: 'Projects Completed', icon: Award },
-    { number: '150+', label: 'Happy Clients', icon: Users },
-    { number: '10+', label: 'Years Experience', icon: Star },
+    { number: '10+', label: 'Projects Completed', icon: Award },
+    { number: '10', label: 'Happy Clients', icon: Users },
+    { number: '2', label: 'Years Experience', icon: Star },
     { number: '24/7', label: 'Support Available', icon: Zap },
   ];
 
@@ -24,7 +24,7 @@ export default function Home() {
     {
       title: 'The Future of AI in Business Operations',
       excerpt: 'Exploring how artificial intelligence is revolutionizing modern business processes.',
-      date: 'Dec 15, 2024',
+      date: 'Jan 28, 2025',
       category: 'AI & Technology'
     },
     {
@@ -36,7 +36,7 @@ export default function Home() {
     {
       title: 'Cybersecurity Trends for 2024',
       excerpt: 'Stay ahead of cyber threats with these emerging security trends and practices.',
-      date: 'Dec 8, 2024',
+      date: 'April 10, 2024',
       category: 'Security'
     },
   ];

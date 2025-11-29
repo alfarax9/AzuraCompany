@@ -55,12 +55,6 @@ export default function Contact() {
       description: '24/7 support available'
     },
     {
-      icon: MapPin,
-      title: 'Visit Us',
-      content: '123 Tech Street, Silicon Valley, CA 94105',
-      description: 'Our headquarters'
-    },
-    {
       icon: Clock,
       title: 'Business Hours',
       content: 'Mon - Fri: 9AM - 6PM PST',
@@ -102,7 +96,7 @@ export default function Contact() {
       {/* Contact Information */}
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8+  ">
             {contactInfo.map((info, index) => (
               <GlassCard key={index} className="p-6 text-center group">
                 <info.icon className="h-8 w-8 text-purple mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
@@ -220,13 +214,12 @@ export default function Contact() {
 
             {/* Map & Additional Info */}
             <div className="space-y-8">
-              {/* Map Placeholder */}
+              Map Placeholder
               <GlassCard className="p-8 h-64 bg-gradient-to-br from-purple/20 to-lavender/20 flex items-center justify-center">
                 <div className="text-center">
                   <MapPin className="h-12 w-12 text-purple mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-navy mb-2">Our Location</h3>
-                  <p className="text-navy/70">Silicon Valley, California</p>
-                  <p className="text-sm text-navy/60 mt-2">Interactive map coming soon</p>
+                  <p className="text-navy/70">Jl. Danau Ranau, Sawojajar, Kec. Kedungkandang, Kota Malang, Jawa Timur 65139</p>
                 </div>
               </GlassCard>
 
@@ -238,21 +231,21 @@ export default function Contact() {
                     <Phone className="h-5 w-5 text-purple" />
                     <div>
                       <p className="font-medium text-navy">Sales Inquiries</p>
-                      <p className="text-navy/70">+1 (555) 123-4567</p>
+                      <p className="text-navy/70">+62 812-3456-7890</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Phone className="h-5 w-5 text-purple" />
                     <div>
                       <p className="font-medium text-navy">Technical Support</p>
-                      <p className="text-navy/70">+1 (555) 123-4568</p>
+                      <p className="text-navy/70">+62 825-6544-3984</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="h-5 w-5 text-purple" />
                     <div>
                       <p className="font-medium text-navy">General Inquiries</p>
-                      <p className="text-navy/70">hello@azura.com</p>
+                      <p className="text-navy/70">rama.ramajr125@gmail.com</p>
                     </div>
                   </div>
                 </div>

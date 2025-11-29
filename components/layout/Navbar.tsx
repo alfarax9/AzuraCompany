@@ -29,7 +29,7 @@ export default function Navbar() {
               <Zap className="h-6 w-6 text-black" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-black to-black bg-clip-text text-transparent">
-              Azura
+              Messi
             </span>
           </Link>
 

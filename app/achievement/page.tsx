@@ -15,7 +15,7 @@ export default function Achievement() {
   const milestones = [
     {
       icon: Award,
-      number: 20,
+      number: 10,
       label: 'Projects Completed',
       key: 'projects',
       description: 'Successfully delivered across various industries'
@@ -34,13 +34,6 @@ export default function Achievement() {
       key: 'years',
       description: 'Decade of innovation and growth'
     },
-    {
-      icon: Trophy,
-      number: 10,
-      label: 'Industry Awards',
-      key: 'awards',
-      description: 'Recognition for outstanding work'
-    }
   ];
 
   const awards = [
@@ -78,23 +71,11 @@ export default function Achievement() {
       year: '2023'
     },
     {
-      icon: Star,
-      title: 'ISO Certifications',
-      description: 'Achieved ISO 27001, ISO 9001, and ISO 20000 certifications for quality and security.',
-      year: '2022'
-    },
-    {
       icon: TrendingUp,
       title: '300% Growth',
-      description: 'Achieved remarkable 300% revenue growth over the past 3 years through strategic initiatives.',
-      year: '2021-2024'
-    },
-    {
-      icon: Target,
-      title: 'AI Innovation Lab',
-      description: 'Launched dedicated AI research lab with 15+ data scientists and ML engineers.',
+      description: 'Achieved remarkable 300% revenue growth over the past 2 years through strategic initiatives.',
       year: '2024'
-    }
+    },
   ];
 
   // Counter animation effect
@@ -157,7 +138,7 @@ export default function Achievement() {
       {/* Milestones with Counters */}
       <section id="counters" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
             {milestones.map((milestone, index) => (
               <GlassCard key={index} className="p-8 text-center group">
                 <milestone.icon className="h-12 w-12 text-purple mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
@@ -173,7 +154,7 @@ export default function Achievement() {
       </section>
 
       {/* Awards Section */}
-      <section className="py-20 bg-gradient-to-r from-purple/5 to-lavender/5">
+      {/* <section className="py-20 bg-gradient-to-r from-purple/5 to-lavender/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-navy mb-6">Awards & Recognition</h2>
@@ -201,7 +182,7 @@ export default function Achievement() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Key Achievements */}
       <section className="py-20">
@@ -250,9 +231,9 @@ export default function Achievement() {
             <button className="px-8 py-4 bg-navy text-navy rounded-full font-medium hover:bg-light transition-colors duration-300 hover:scale-105 ">
               Start Your Project
             </button>
-            <button className="px-8 py-4 backdrop-blur-sm bg-white/20 border border-white/30 text-navy rounded-full font-medium hover:bg-white/30 transition-colors duration-300">
+            {/* <button className="px-8 py-4 backdrop-blur-sm bg-white/20 border border-white/30 text-navy rounded-full font-medium hover:bg-white/30 transition-colors duration-300">
               View Case Studies
-            </button>
+            </button> */}
           </div>
         </div>
       </section>

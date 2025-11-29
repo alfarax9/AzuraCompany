@@ -78,17 +78,13 @@ export default function Footer() {
                   <Phone className="h-5 w-5 text-lavender" />
                   <span>+1 (555) 123-4567</span>
                 </div>
-                <div className="flex items-center space-x-3 text-light/80">
-                  <MapPin className="h-5 w-5 text-lavender" />
-                  <span>123 Tech Street, Silicon Valley, CA</span>
-                </div>
               </div>
             </div>
           </div>
 
           <div className="mt-12 pt-8 border-t border-white/20">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-              <p className="text-light/60">© 2024 Azura. All rights reserved.</p>
+              <p className="text-light/60">© 2025. All rights reserved.</p>
               <div className="flex space-x-6">
                 <a href="#" className="text-light/60 hover:text-white transition-colors duration-300">Privacy Policy</a>
                 <a href="#" className="text-light/60 hover:text-white transition-colors duration-300">Terms of Service</a>

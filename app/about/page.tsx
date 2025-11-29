@@ -28,21 +28,15 @@ export default function About() {
   const team = [
     {
       name: 'Iqbal Rizqi Ramadhan',
-      role: 'Messi isap',
       image: '/image/iqbal.jpg',
-      description: 'Experts'
     },
     {
       name: 'Muhammad Alfara Salim',
-      role: 'Messi isap isap',
       image: '/image/fara.jpg',
-      description: 'Expert'
     },
     {
       name: 'Akira Saskara Hartono',
-      role: 'Messi isap isap',
-      image: '/image/akira.jpg',
-      description: 'Experts'
+      image: '/image/Akira.jpg',
     },
   ];
 
@@ -57,7 +51,7 @@ export default function About() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r  bg-clip-text text-black">
-            About Messi isap isap
+            About Us
           </h1>
           <p className="text-xl md:text-2xl text-navy/80 mb-12 max-w-4xl mx-auto leading-relaxed">
             We are a forward-thinking IT company dedicated to transforming businesses through 
@@ -88,7 +82,7 @@ export default function About() {
               <div className="text-center">
                 <h3 className="text-2xl font-semibold text-navy mb-4">Global Impact</h3>
                 <p className="text-navy/70 leading-relaxed">
-                  Serving clients across 25+ countries with 24/7 support and 
+                  Serving clients across 8 countries with 24/7 support and 
                   localized expertise in emerging markets.
                 </p>
               </div>
@@ -125,7 +119,7 @@ export default function About() {
             <p className="text-xl text-navy/70">Behind The Success</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-fit mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4 justify-items-center">
             {team.map((member, index) => (
               <GlassCard key={index} className="p-6 text-center group">
                 <img
@@ -134,8 +128,6 @@ export default function About() {
                   className="w-24 h-24 rounded-full mx-auto mb-4 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <h3 className="text-lg font-semibold text-navy mb-1">{member.name}</h3>
-                <p className="text-purple font-medium mb-2">{member.role}</p>
-                <p className="text-sm text-navy/70">{member.description}</p>
               </GlassCard>
             ))}
           </div>
