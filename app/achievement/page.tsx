@@ -103,7 +103,7 @@ export default function Achievement() {
       milestones.forEach((milestone) => {
         let start = 0;
         const end = milestone.number;
-        const duration = 2000;
+        const duration = 1800;
         const increment = end / (duration / 16);
 
         const counter = setInterval(() => {
