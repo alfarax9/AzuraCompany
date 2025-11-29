@@ -15,28 +15,28 @@ export default function Achievement() {
   const milestones = [
     {
       icon: Award,
-      number: 500,
+      number: 20,
       label: 'Projects Completed',
       key: 'projects',
       description: 'Successfully delivered across various industries'
     },
     {
       icon: Users,
-      number: 150,
+      number: 10,
       label: 'Happy Clients',
       key: 'clients',
       description: 'Long-term partnerships built on trust'
     },
     {
       icon: Calendar,
-      number: 10,
+      number: 1,
       label: 'Years of Excellence',
       key: 'years',
       description: 'Decade of innovation and growth'
     },
     {
       icon: Trophy,
-      number: 25,
+      number: 10,
       label: 'Industry Awards',
       key: 'awards',
       description: 'Recognition for outstanding work'

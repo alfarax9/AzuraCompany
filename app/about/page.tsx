@@ -27,29 +27,23 @@ export default function About() {
 
   const team = [
     {
-      name: 'Sarah Chen',
-      role: 'CEO & Founder',
-      image: 'https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=300',
-      description: '15+ years in tech leadership'
+      name: 'Iqbal Rizqi Ramadhan',
+      role: 'Messi isap',
+      image: '/image/iqbal.jpg',
+      description: 'Experts'
     },
     {
-      name: 'Marcus Johnson',
-      role: 'CTO',
-      image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=300',
-      description: 'Expert in cloud architecture'
+      name: 'Muhammad Alfara Salim',
+      role: 'Messi isap isap',
+      image: '/image/fara.jpg',
+      description: 'Expert'
     },
     {
-      name: 'Lisa Rodriguez',
-      role: 'Head of Design',
-      image: 'https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=300',
-      description: 'UX/UI design specialist'
+      name: 'Akira Saskara Hartono',
+      role: 'Messi isap isap',
+      image: '/image/akira.jpg',
+      description: 'Experts'
     },
-    {
-      name: 'David Park',
-      role: 'Lead Developer',
-      image: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=300',
-      description: 'Full-stack development guru'
-    }
   ];
 
   return (
@@ -63,7 +57,7 @@ export default function About() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r  bg-clip-text text-black">
-            About Azura
+            About Messi isap isap
           </h1>
           <p className="text-xl md:text-2xl text-navy/80 mb-12 max-w-4xl mx-auto leading-relaxed">
             We are a forward-thinking IT company dedicated to transforming businesses through 
@@ -128,16 +122,16 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-navy mb-6">Meet Our Team</h2>
-            <p className="text-xl text-navy/70">The experts behind your success</p>
+            <p className="text-xl text-navy/70">Behind The Success</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-fit mx-auto">
             {team.map((member, index) => (
               <GlassCard key={index} className="p-6 text-center group">
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-24 h-24 rounded-full mx-auto mb-4 object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-24 h-24 rounded-full mx-auto mb-4 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <h3 className="text-lg font-semibold text-navy mb-1">{member.name}</h3>
                 <p className="text-purple font-medium mb-2">{member.role}</p>
@@ -158,7 +152,7 @@ export default function About() {
             <div>
               <h2 className="text-4xl font-bold text-navy mb-6">Our Story</h2>
               <p className="text-lg text-navy/80 mb-6 leading-relaxed">
-                Founded in 2025 by a team of passionate technologists, Azura began as a small 
+                Founded in two days a go by a team of passionate technologists, Azura began as a small 
                 consulting firm with a big vision: to make enterprise-grade technology accessible 
                 to businesses of all sizes.
               </p>
@@ -169,15 +163,15 @@ export default function About() {
               </p>
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
-                  <div className="text-3xl font-bold teks-navy">2014</div>
+                  <div className="text-3xl font-bold teks-navy">2025</div>
                   <div className="teks-navy/60">Founded</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold teks-navy">500+</div>
+                  <div className="text-3xl font-bold teks-navy">10+</div>
                   <div className="teks-navy/60">Projects</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold teks-navy">25+</div>
+                  <div className="text-3xl font-bold teks-navy">8</div>
                   <div className="teks-navy/60">Countries</div>
                 </div>
               </div>
